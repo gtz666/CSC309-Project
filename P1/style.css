@@ -1,0 +1,51 @@
+/* VARIABLES */
+:root {
+  --primary: #00a9ac;
+  --secondary: #3c61b4;
+  --tertiary: #c8f05d;
+  --danger: #ff0000;
+  --warning: #ffff00;
+  --background: #dadada;
+  --background-dark: #333333;
+}
+
+/* GLOBAL CSS */
+body {
+  background-color: var(--background) !important;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: var(--primary);
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  padding-bottom: 5px;
+  margin-left: 20px;
+}
+
+.me-auto .dropdown-menu {
+  left: auto !important;
+  right: 0px;
+}
+
+/* FOOTER */
+.footer {
+  height: 8rem;
+  background-color: var(--background-dark);
+}
+
+.full-page {
+  flex: 1;
+}
+
+.footer-links {
+  width: 80%;
+  margin-left: 10%;
+}
