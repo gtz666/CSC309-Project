@@ -125,6 +125,7 @@ body {
   color: white;
 }
 
+/* Responsive design for mobile devices */
 @media only screen and (max-width: 1024px) {
   .home .search {
     width: 100vw;
