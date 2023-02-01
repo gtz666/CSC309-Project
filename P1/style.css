@@ -128,6 +128,7 @@ body {
 }
 
 .property {
+  margin-top: 1%;
   width: 100%;
   min-height: 80vh;
   display: flex;
@@ -137,12 +138,6 @@ body {
 .property .view_pics {
   width: 50%;
   align-items: center;
-}
-
-.property .info {
-  width: 50%;
-  align-items: center;
-  background-color: var(--background-property-info);
 }
 
 .property .view_pics .map-sec {
@@ -174,6 +169,36 @@ body {
   width: 300px;
   height: 300px;
   margin-top: 1%;
+}
+
+.property .info {
+  width: 50%;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 30px;
+  margin-top: 1%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.bed_bath_info {
+  font-size: 25px;
+  margin-top: 1%;
+}
+
+.info .sec_name {
+  font-size: 25px;
+  text-align: left;
+}
+
+.info .sec_msg {
+  font-size: 15px;
 }
 /* Responsive design for mobile devices */
 @media only screen and (max-width: 1024px) {
