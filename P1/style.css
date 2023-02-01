@@ -8,7 +8,7 @@
   --background: #dadada;
   --background-dark: #333333;
 
-  --background-property-info: #ffffff;
+  --background-white: #ffffff;
 }
 
 /* GLOBAL CSS */
@@ -138,21 +138,35 @@ body {
 .property .view_pics {
   width: 50%;
   align-items: center;
+  justify-content: center;
 }
 
 .property .view_pics .map-sec {
-  height: 50%;
+  height: 40%;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
 .property .view_pics .pic-sec {
-  height: 50%;
+  height: 40%;
   width: 100%;
   display: flex;
   justify-content: center;
 
+}
+
+.property .view_pics .button {
+  width: auto;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 1%;
+  cursor: pointer;
+  color: var(--background-white);
+  background-color: var(--primary);
 }
 
 .map {
@@ -168,7 +182,7 @@ body {
   border: 1px solid black;
   width: 300px;
   height: 300px;
-  margin-top: 1%;
+  margin-top: 5%;
 }
 
 .property .info {
@@ -215,5 +229,16 @@ body {
 
   .home .front-page {
     flex-direction: column;
+  }
+
+  .property {
+    flex-direction: column;
+  }
+  .property .view_pics {
+    width: 100vw;
+  }
+
+  .property .info {
+    width: 100vw;
   }
 }
