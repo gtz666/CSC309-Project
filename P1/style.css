@@ -9,6 +9,7 @@
   --background-dark: #333333;
 
   --background-white: #ffffff;
+  --background-pink: #f37fe0;
 }
 
 /* GLOBAL CSS */
@@ -157,16 +158,17 @@ body {
 }
 
 .property .view_pics .button {
-  width: auto;
+  width: 30%;
   padding: 15px 30px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: block;
   font-size: 16px;
   margin: 1%;
   cursor: pointer;
   color: var(--background-white);
-  background-color: var(--primary);
+  background-color: var(--background-pink);
+  margin-left: 35%;
 }
 
 .map {
@@ -241,4 +243,5 @@ body {
   .property .info {
     width: 100vw;
   }
+
 }
